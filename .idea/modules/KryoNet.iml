@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="IntelliGuard" name="Obfuscation">
+      <configuration>
+        <option name="yGuardJar" value="C:\Users\JohnB\Downloads\yguard-2.7.1\yguard-2.7.1\lib\yguard.jar" />
+        <option name="inFile" value="C:\Users\JohnB\Desktop\Game1\KryoNet\out\Obfuscated\KryonetB.jar" />
+        <option name="outFile" value="C:\Users\JohnB\Desktop\Game1\KryoNet\out\Obfuscated\Kryonet.jar" />
+        <option name="namingScheme" value="best" />
+        <option name="jarConfig">
+          <JarConfig>
+            <option name="jarEntries">
+              <list>
+                <option value="C:\Users\JohnB\Desktop\Game1\KryoNet\out\production\KryoNet" />
+              </list>
+            </option>
+          </JarConfig>
+        </option>
+      </configuration>
+    </facet>
+  </component>
+</module>

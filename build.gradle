@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+allprojects {
+    tasks.withType(JavaCompile) {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+}
+
+
+repositories {
+    mavenCentral()
+    maven {url 'https://oss.sonatype.org/content/repositories/snapshots'}
+}
+
+dependencies {
+    implementation group: 'com.esotericsoftware', name: 'kryonet', version: '2.22.0-RC1'
+}
